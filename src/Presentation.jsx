@@ -16,7 +16,7 @@ export function Presentation() {
             {t("Hi! im")}
           </p>
           <div className="pt-4 flex flex-col ">
-            <h1 className="text-5xl font-semibold bg-gradient-to-r from-white from-5% via-grey-300 via-30% to-gray-600 to-90% inline-block text-transparent bg-clip-text text-nowrap">
+            <h1 className="text-5xl font-semibold bg-gradient-to-r from-white from-5% via-grey-300 via-30% to-gray-600 to-90% inline-block text-transparent bg-clip-text">
               Mariano Moreno
             </h1>
             <h1 className="text-5xl font-semibold bg-gradient-to-r from-white from-5% via-grey-300 via-30% to-gray-600 to-90% inline-block text-transparent bg-clip-text">
