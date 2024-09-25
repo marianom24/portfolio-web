@@ -15,7 +15,7 @@ export function ProjectSection() {
           title={"TrackTi"}
           subtitle={"stats for your time"}
           imgUrl={
-            "https://res.cloudinary.com/dpps6wg2p/image/upload/v1727190145/Captura_de_pantalla_2024-09-24_115956.jpg"
+            "https://res.cloudinary.com/dpps6wg2p/image/upload/v1727279660/Captura_de_pantalla_2024-09-25_120744_biehr3.png"
           }
           description={
             t("Description TrackTi")
@@ -25,12 +25,15 @@ export function ProjectSection() {
           webLink={"https://trackti.vercel.app/login"}
         />
         <ProjectCard
-          title={"WebApp"}
-          subtitle={"for myself"}
+          title={"LittleLemon"}
+          subtitle={"API rest"}
           imgUrl={
-            "https://www.searchenginejournal.com/wp-content/uploads/2023/08/screenshot-2023-08-23-at-10.55.02-am-64e61fe27a2a3-sej.png"
+            "https://res.cloudinary.com/dpps6wg2p/image/upload/v1727279452/226729651-63c82654-20d7-4783-b1a9-4c97afae96d4_q9rl8s.png"
           }
-          stack={["Django REST", "SQLite", "Tailwind", "MongoDB"]}
+          stack={["Django REST", "SQLite"]}
+          description={t("Description LittleLemon")}
+          repoLink={"https://github.com/marianom24/littlelemon-orders"}
+          webLink={"https://github.com/marianom24/littlelemon-orders"}
         />
       </div>
     </div>

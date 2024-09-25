@@ -9,14 +9,14 @@ export function ProjectCard({ title, subtitle, stack, imgUrl, description, repoL
           alt="Project Screenshot"
           className="object-cover rounded-3xl shadow-sm shadow-gray-700 w-full h-56 sm:h-48 md:h-64"
         />
-        <span className="absolute bottom-0 flex w-full justify-end pr-4 gap-4 backdrop-blur-sm h-12 bg-gradient-to-t from-black/70 to-transparent rounded-b-3xl ">
-          <a className="flex gap-2 items-center text-sm md:text-base hover:scale-110" href={repoLink} target="_blank" >
-            <FaGithub size={20}  />
+        <span className="absolute bottom-0 flex w-full justify-end pr-4 gap-4 backdrop-blur-sm h-12 rounded-b-3xl ">
+          <a className="flex gap-2 items-center text-sm md:text-base hover:scale-110 text-black font-semibold" href={repoLink} target="_blank" >
+            <FaGithub size={20} color="black" />
             Code
           </a>
 
-          <a className="flex gap-2 items-center text-sm md:text-base hover:scale-110" href={webLink}  target="_blank">
-            <FaExternalLinkAlt size={20} />
+          <a className="flex gap-2 items-center text-sm md:text-base hover:scale-1100 text-black font-semibold" href={webLink}  target="_blank">
+            <FaExternalLinkAlt size={20} color="black" />
             Live
           </a>
 
