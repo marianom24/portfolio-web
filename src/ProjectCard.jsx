@@ -6,6 +6,7 @@ export function ProjectCard({ title, subtitle, stack, imgUrl, description, repoL
       <div className="w-full relative">
         <img
           src={imgUrl}
+          loading="lazy"
           alt="Project Screenshot"
           className="object-cover rounded-3xl shadow-sm shadow-gray-700 w-full h-56 sm:h-48 md:h-64"
         />

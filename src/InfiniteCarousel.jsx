@@ -7,51 +7,61 @@ const techStackIcons = ()=>{
     <div className="animate-slide-left inline-block w-max">
       <img
         className="mx-4 inline h-16 hover:scale-125"
+        loading="lazy"
         src="https://www.svgrepo.com/show/452092/react.svg"
         alt="React"
       />
       <img
         className="mx-4 inline h-16 hover:scale-125"
+        loading="lazy"
         src="https://www.svgrepo.com/show/452045/js.svg"
         alt="JavaScript"
       />
       <img
         className="mx-4 inline h-16 hover:scale-125"
+        loading="lazy"
         src="https://www.svgrepo.com/show/374118/tailwind.svg"
         alt="TailwdinCSS"
       />
       <img
         className="mx-4 inline h-16 hover:scale-125"
+        loading="lazy"
         src="https://www.svgrepo.com/show/452091/python.svg"
         alt="Python"
       />
       <img
         className="mx-4 inline h-16 hover:scale-125"
+        loading="lazy"
         src="https://www.svgrepo.com/show/373554/django.svg"
         alt="Django"
       />
       <img
         className="mx-4 inline h-16 hover:scale-125"
+        loading="lazy"
         src="https://www.svgrepo.com/show/354200/postgresql.svg"
         alt="PostreSQL"
       />
       <img
         className="mx-4 inline h-16 hover:scale-125"
+        loading="lazy"
         src="https://www.svgrepo.com/show/373848/mysql.svg"
         alt="mySQL"
       />
       <img
         className="mx-4 inline h-16 hover:scale-125"
+        loading="lazy"
         src="https://www.svgrepo.com/show/452210/git.svg"
         alt="Git"
       />
       <img
         className="mx-4 inline h-16 hover:scale-125"
+        loading="lazy"
         src="https://img.icons8.com/glyph-neue/64/FFFFFF/github.png"
         alt="GitHub"
       />
       <img
         className="mx-4 inline h-16 hover:scale-125"
+        loading="lazy"
         src="https://www.svgrepo.com/show/448221/docker.svg"
         alt="Docker"
       />

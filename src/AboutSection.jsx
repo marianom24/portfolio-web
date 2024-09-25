@@ -15,6 +15,7 @@ export function AboutSection() {
       </div>
       <img
         src="https://res.cloudinary.com/dpps6wg2p/image/upload/v1714059785/xxxmme2wx0zk2owufjic.png"
+        loading="lazy"
         alt="Picture of myself"
         className="opacity-100 size-60 object-cover rounded-full shadow-white shadow max-xl:w-60 max-xl:mx-auto max-xl:mt-12 sm:hidden"
       />
