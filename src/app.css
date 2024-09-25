@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  min-height: 30px;
+  padding: 1rem 3em;
+  margin: 0;
+  background-color: #99b7c9;
+  align-items: center;
+}
+.logo-header {
+  width: 4em;
+  height: 4em;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: large;
+  margin-left: 60px;
+}
+
+.container-firspage {
+  display: flex;
+}
+.container-presentation {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.presentation-pretitle {
+  font-weight: 500;
+  opacity: 80%;
+}
+.presentation-name {
+  margin: 0;
+}
+.presentation-title {
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
