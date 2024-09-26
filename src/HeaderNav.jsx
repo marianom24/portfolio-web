@@ -7,7 +7,7 @@ export function HeaderNav() {
   return (
     <header className="flex mx-auto inset-x-0 w-3/5 flex-row justify-between py-5 z-10 items-center text-white backdrop-blur-md border-white fixed sm:w-full sm:py-3 sm:hidden md:w-full md:px-10">
       <div className="w-10 h-10">
-        <CodeIcon /> 
+        <img src="./logonobg.png" /> 
       </div>
       <nav className="flex gap-12 text-xl sm:text-lg">
         <a
