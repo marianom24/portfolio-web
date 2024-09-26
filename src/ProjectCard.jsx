@@ -27,7 +27,7 @@ export function ProjectCard({ title, subtitle, stack, imgUrl, description, repoL
         <div>
           <h1 className="text-xl md:text-2xl font-bold">{title}</h1>
           <p className="text-base md:text-lg opacity-70 font-semibold">{subtitle}</p>
-          <p className="mt-4 opacity-90 text-left font-light line-clamp-5 sm:line-clamp-4 text-sm md:text-base">
+          <p className="mt-4 opacity-90 text-left font-light line-clamp-7 sm:line-clamp-6 text-sm md:text-base">
             {description}
           </p>
         </div>
